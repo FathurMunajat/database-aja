@@ -35,59 +35,72 @@ if(isset($_POST["submit"]) ) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Change data</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <a href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"></a>
+        <link rel="stylesheet" href="Change.css">
 </head>
 <body>
-    <h1>Change Your Data</h1>
+    
+<nav>
+    <center>
+    <h3>Change Your Data</h3>
+    </center>
+</nav>
     <form action="" method="post">
-
     <input type="hidden" name="id" value="<?= $kill ["id"]; ?>">
 
     <div class="position-absolute top-50 start-50 translate-middle">
     <table border="1" cellpadding="10" cellspacing="0" class="table table-bordered">
-        
+    <div class="position-absolute top-50 start-50 translate-middle">
+    
+    <div class="card" style="width: 19rem; height: 550px;">
+      <div class="card-body">
+        <h5 class="card-title">Add your data</h5>
+        <p class="card-text"><form action="" method="post" enctype="multipart/form-data">
     <ul>
-    <li>
+        <p>
             <label for="Picture">Picture :</label>
             <input type="file" name="Picture" id"Picture"
             required value="<?= $kill ["Picture"];?>">
-        </li>
+        </p>
 
 
-        <li>
+        <p>
             <label for="Nama">NAMA :</label>
             <input type="text" name="Nama" id"Nama" required
             value="<?= $kill["Nama"]; ?>">
-        </li>
+        </p>
 
-        <li>
+        <p>
             <label for="Nis">NIS :</label>
             <input type="text" name="Nis" id"Nis" required
             value="<?= $kill ["Nis"]; ?>">
-        </li>
+        </p>
 
-        <li>
+        <p>
             <label for="Rombel">ROMBEL :</label>
             <input type="text" name="Rombel" id"Rombel" required
             value="<?= $kill ["Rombel"]; ?>">
-        </li>
+        </p>
 
-        <li>
+        <p>
             <label for="Rayon">RAYON :</label>
             <input type="text" name="Rayon" id"Rayon" required
             value="<?= $kill ["Rayon"]; ?>">
-        </li>
+        </p>
         
-        <li>
+        <p>
             <label for="Status">STATUS :</label>
             <input type="text" name="Status" id"Status" required
             value="<?= $kill ["Status"]; ?>">
-        </li>
+        </p>
 
-        <li>
+        <p>
             <button type="submit" name="submit"> Change your data! </button>
-        </li>
+        </p>
     </ul>
+</p>
     <table><a href="database.php">back</a></table>
+</div>
 </div>
 </body>
 </html>

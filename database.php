@@ -15,14 +15,19 @@ if ( isset ($_POST["Search"]) ) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar siswa</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="database.css">
 </head>
-<body
+<body>
+
+  
+
 
     <!-- search -->
 
     <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand">Daftar Siswa</a>
+
     <form class="d-flex" role="search" action="" method="post">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="keyword"
                 autofocus autocomplete="off">
@@ -33,6 +38,8 @@ if ( isset ($_POST["Search"]) ) {
 
 <br>
 
+<div>
+    
 <div class="position-absolute top-50 start-50 translate-middle">
     <table border="1" cellpadding="10" cellspacing="0" class="table table-bordered">
        <!-- Table -->
@@ -71,7 +78,7 @@ if ( isset ($_POST["Search"]) ) {
     </table>
     <table><a href="Tambah.php">Add data</a></table>
     </div>
-
+    </div>
 
 </body>
 </html>

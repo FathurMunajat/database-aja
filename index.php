@@ -17,10 +17,16 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <a href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"></a>
     </head>
-    <body>
+    <body style= "background-color: salmon">
+
+    <center>
+    <h1><img src="img/goku jatoh.gif " alt="" width = "300 rem" ></h1>
+    </center>
+
     <div class="position-absolute top-50 start-50 translate-middle">
         <div class="card" style="width: 30rem; height: 300px;">
             <div class="card-body">
+              
     <form action="" method="post" >
     <h5 class="card-title">Form login</h5>
     <br>
